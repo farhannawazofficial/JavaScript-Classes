@@ -11,5 +11,25 @@
 // console.log((a + b) * b - a + b + a)
 
 
-let favDish = prompt("Enter Your fav dish")
-console.log(favDish)
+// let favDish = prompt("Enter Your fav dish", "Baryani")
+// console.log(favDish)
+
+
+// Convert The number to the string
+// let num1 = +prompt("Enter Your Number")
+// let num2 = 4
+// console.log(num1 * num2 )
+
+
+
+let a = 2
+// console.log(a++)
+// console.log(a)
+// console.log(++a)
+
+
+// console.log(a--)
+// console.log(a)
+// console.log(--a)
+
+console.log(--a + a++ + a++ + --a + ++a + a++)

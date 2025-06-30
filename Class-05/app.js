@@ -41,3 +41,47 @@
 
 
 
+// let arr = [
+//     {
+//         name: "ali",
+//         fname: "ahmed",
+//         calss: "WebDev",
+//     },
+//     {
+//         name: "mehak",
+//         fname: "ashfaq",
+//         calss: "WebDev",
+//     },
+//     {
+//         name: "amna",
+//         fname: "muddasir",
+//         calss: "WebDev",
+//     },
+// ];
+
+// // Add new property to first object (index 0)
+// arr[0].section = "A";
+
+// console.log(arr);
+
+
+
+// let newValue = "key 1"
+
+// let obj = {
+//     name: "Zarb Home Care Product",
+//     location: "Lahore",
+//     number: "0132823003",
+//     warking: "Home Care Product",
+//     founder: "Sultan Bhai"
+// }
+// console.log(obj[newValue] = "Farhan Added", obj)
+
+
+
+
+function cook (suba, sham){
+    console.log("mujy " + suba + " ma " + sham + " chia ")
+}
+cook("suba","baryani")
+cook("sham","daal")

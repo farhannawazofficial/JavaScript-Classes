@@ -35,7 +35,7 @@
 // console.log(--a + a++ + a++ + --a + ++a + a++)
 
 // Today Sir Assignment
-let user = +prompt("enter your Table Number" , "2")
+// let user = +prompt("enter your Table Number" , "2")
 // console.log(user + " x " + " 1 " + " = " + user*1);
 // console.log(user + " x " + " 2 " + " = " + user*2);
 // console.log(user + " x " + " 3 " + " = " + user*3);
@@ -47,18 +47,25 @@ let user = +prompt("enter your Table Number" , "2")
 // console.log(user + " x " + " 9 " + " = " + user*9);
 // console.log(user + " x " + " 10 " + " = " + user*10);
 
-let firstName = 0;
-console.log(user + " x " + ++firstName + " = " + user*firstName);
-console.log(user + " x " + ++firstName + " = " + user*firstName);
-console.log(user + " x " + ++firstName + " = " + user*firstName);
-console.log(user + " x " + ++firstName + " = " + user*firstName);
-console.log(user + " x " + ++firstName + " = " + user*firstName);
-console.log(user + " x " + ++firstName + " = " + user*firstName);
-console.log(user + " x " + ++firstName + " = " + user*firstName);
-console.log(user + " x " + ++firstName + " = " + user*firstName);
-console.log(user + " x " + ++firstName + " = " + user*firstName);
-console.log(user + " x " + ++firstName + " = " + user*firstName);
-console.log(user + " x " + ++firstName + " = " + user*firstName);
-console.log(user + " x " + ++firstName + " = " + user*firstName);
-console.log(user + " x " + ++firstName + " = " + user*firstName);
+// let firstName = 0;
+// console.log(user + " x " + ++firstName + " = " + user*firstName);
+// console.log(user + " x " + ++firstName + " = " + user*firstName);
+// console.log(user + " x " + ++firstName + " = " + user*firstName);
+// console.log(user + " x " + ++firstName + " = " + user*firstName);
+// console.log(user + " x " + ++firstName + " = " + user*firstName);
+// console.log(user + " x " + ++firstName + " = " + user*firstName);
+// console.log(user + " x " + ++firstName + " = " + user*firstName);
+// console.log(user + " x " + ++firstName + " = " + user*firstName);
+// console.log(user + " x " + ++firstName + " = " + user*firstName);
+// console.log(user + " x " + ++firstName + " = " + user*firstName);
+// console.log(user + " x " + ++firstName + " = " + user*firstName);
+// console.log(user + " x " + ++firstName + " = " + user*firstName);
+// console.log(user + " x " + ++firstName + " = " + user*firstName);
+
+
+
+let a = 2
+console.log(a);
+console.log(a++); // 2
+console.log(++a); // 4
 

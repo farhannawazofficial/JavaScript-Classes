@@ -8,3 +8,7 @@ let student = {
 }
 let newStudent = (student[addedStudent], "Farhan", student)
 console.log(student[addedStudent], "Farhan", student)
+
+
+
+//funcations

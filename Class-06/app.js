@@ -33,10 +33,27 @@ console.log(student[addedStudent], "Farhan", student)
 
 // sum(userinput1, userinput2)
 
+//taks
+// function data (firstNmae, secoundName, ){
+//     console.log("Welcome " + firstNmae, secoundName + "!")
+// }
+// let userinput1 = prompt("enter your first name")
+// let userinput2 = prompt("enter your secound name")
+// data(userinput1, userinput2)
 
-function data (firstNmae, secoundName, ){
-    console.log("Welcome " + firstNmae, secoundName)
+
+function userData (){
+    return "wellcome"
 }
-let userinput1 = prompt("enter your first name")
-let userinput2 = prompt("enter your secound name")
-data(userinput1, userinput2)
+let data = userData()
+console.log(data)
+
+
+function greet(userName){
+    return "Welcome " + userName + "!"
+}
+function welcome(name){
+    let message = greet(name)
+    console.log(message)
+}
+welcome("Farhan")

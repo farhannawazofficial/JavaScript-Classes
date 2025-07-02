@@ -1,13 +1,13 @@
-let addedStudent = "fivthStudent"
+// let addedStudent = "fivthStudent"
 
-let student = {
-    firstStudent: "ali",
-    secoundStudent: "Ahmad",
-    thirdStudent: "Raza",
-    forthStudent: "syed",
-}
-let newStudent = (student[addedStudent], "Farhan", student)
-console.log(student[addedStudent], "Farhan", student)
+// let student = {
+//     firstStudent: "ali",
+//     secoundStudent: "Ahmad",
+//     thirdStudent: "Raza",
+//     forthStudent: "syed",
+// }
+// let newStudent = (student[addedStudent], "Farhan", student)
+// console.log(student[addedStudent], "Farhan", student)
 
 
 
@@ -42,18 +42,47 @@ console.log(student[addedStudent], "Farhan", student)
 // data(userinput1, userinput2)
 
 
-function userData (){
-    return "wellcome"
-}
-let data = userData()
-console.log(data)
+// function userData (){
+//     return "wellcome"
+// }
+// let data = userData()
+// console.log(data)
 
 
-function greet(userName){
-    return "Welcome " + userName + "!"
+// function greet(userName){
+//     return "Welcome " + userName + "!"
+// }
+// function welcome(name){
+//     let message = greet(name)
+//     document.write(message)
+//     console.log(message)
+// }
+// welcome("Farhan")
+
+
+// function sum(num1, num2){
+//     return  num1 + num2 
+//     // return ("Addition is "+ num1 + num2 + "!")
+
+// }
+// function longsum(numdata1,numdata2){
+//     let addition = sum(numdata1,numdata2)
+//     console.log(addition)
+// }
+// let newlongsum1 = +prompt("Enter Your First Number")
+// let newlongsum2 = +prompt("Enter Your Secound Number")
+// longsum(newlongsum1, newlongsum2)
+
+
+function topping  (toppings){
+    return toppings + "topping"
 }
-function welcome(name){
-    let message = greet(name)
-    console.log(message)
+function pizza (base, topping1,toping2){
+    let Topping = topping1;
+    let Topping2 = toping2;
+    let fullTopping = Topping + " " + Topping2;
+    let prompt = topping(fullTopping)
+    return "Your " + base + " Pizza with" + prompt;
 }
-welcome("Farhan")
+console.log(pizza("chieese Crust ", " Pepperoni" , " Mushrooms "))
+

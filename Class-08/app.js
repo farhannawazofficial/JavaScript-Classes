@@ -40,21 +40,44 @@
 // }
 
 
-// let hasIdCard = true;
-// let idCardExpired = true; // Change to false to test success case
-// let employeeName = "Ali";
 
-// // 🎯 Target Message Element
-// let messageElement = document.getElementById("message");
+// let a = 12;
+// let b = 75;d
+// let c = 63;
 
-// // 🔍 Condition Check Using if...else
-// if (hasIdCard && !idCardExpired) {
-//     messageElement.textContent = `✅ Welcome ${employeeName}, you are allowed to enter the factory.`;
-//     messageElement.style.color = "green";
-// } else if (hasIdCard && idCardExpired) {
-//     messageElement.textContent = `⚠️ Hello ${employeeName}, your ID card is expired. Please renew it.`;
-//     messageElement.style.color = "orange";
+// let h1 = document.getElementById("heading-1");
+
+// if (a > b && a > c) {
+//     h1.innerHTML = "The greatest number is: " + a;
+// } else if (b > a && b > c) {
+//     h1.innerHTML = "The greatest number is: " + b;
+// } else if (c > a && c > b) {
+//     h1.innerHTML = "The greatest number is: " + c;
 // } else {
-//     messageElement.textContent = `❌ Access Denied! No ID card found.`;
-//     messageElement.style.color = "red";
+//     h1.innerHTML = "Do number same hay";
 // }
+
+
+// let city = ["Karachi", "Multan", "Islamabad", "Pashware" ]
+// // city.push("farhan")
+// // city.unshift("ali")
+// // city.pop()
+// // city.shift()
+// // city.splice(2,2)
+
+// console.log(city.indexOf("Islamabad"))
+// console.log(city)
+
+
+let students = ["Ali", "Farhan", "Ahmed"];
+
+
+
+let h1 = document.getElementById("heading-1");
+
+if (students.indexOf("Ali") !== -1) {
+    h1.innerHTML = "Student found: " ;
+} else {
+    h1.innerHTML = "Student does not exist.";
+}
+

@@ -25,3 +25,22 @@
 // }
 
 
+// let fruits = ["Apple", "Banana", "Pineapple"];
+// for (let i = 0; i < fruits.length; i++) {
+//     console.log (fruits[i]);
+
+// }
+
+// for (let i = 10; i >= 0; i--) {
+//     console.log(i)
+// }
+
+
+let cleancitys = ["Karachi", "Islamabad", "Lahore", "Peshware"];
+let userInput = prompt("enter your City")
+if (cleancitys.indexOf(userInput) >= 0) {
+    console.log("Your Live in a clean city")
+}
+else{
+    console.log("you don`t live in a clean city ")
+}

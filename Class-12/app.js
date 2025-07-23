@@ -20,3 +20,7 @@ window.onload = function() {
         p.innerHTML = "Sorry apny paida hony mei dair krdi";
     }
 };
+
+
+
+

@@ -25,3 +25,10 @@
 // }
 
 
+function generateOTP() {
+  let otp = Math.floor(1000 + Math.random() * 9000);
+  console.log("Your OTP is:", otp);
+  return otp;
+}
+
+generateOTP();

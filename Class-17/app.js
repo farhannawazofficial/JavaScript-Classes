@@ -16,12 +16,12 @@
 // bodyEL.appendChild(h1)
 
 
-function addMe(){
-    if () {
-        
-    }
-}
-
-
+// let p = document.createElement("p")
+// let text1= document.createTextNode("this is para")
+// let em = document.createElement("em")
+// let imp = document.createTextNode ("Important")
+// p.appendChild(text1, em)
+// em.appendChild(imp)
+// console.log(p, imp)
 
 

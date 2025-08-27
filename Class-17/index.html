@@ -1,55 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Shopping Cart</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    #cart { margin-top: 20px; }
-    .error { color: red; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-  <h2>Simple Shopping Cart</h2>
-  
-  <input type="text" id="itemInput" placeholder="Enter item name">
-  <button onclick="addToCart()">Add to Cart</button>
-  
-  <p id="errorMsg" class="error"></p>
-  
-  <div id="cart">
-    <h3>Cart Items (<span id="count">0</span>)</h3>
-    <ul id="cartList"></ul>
-  </div>
+    <h1>Shoping Cart</h1>
+    <input type="text">
+    <button onclick="addMe()">ADD</button>
 
-  <script>
-    let cart = []; // Array to store items
-    
-    function addToCart() {
-      let item = document.getElementById("itemInput").value.trim();
-      let errorMsg = document.getElementById("errorMsg");
-      
-      if(item === "") {
-        errorMsg.textContent = "❌ Please enter an item before adding.";
-        return;
-      }
-      
-      errorMsg.textContent = ""; // clear error
-      cart.push(item); // add item to array
-      
-      // Update count
-      document.getElementById("count").textContent = cart.length;
-      
-      // Show items in cart
-      let cartList = document.getElementById("cartList");
-      cartList.innerHTML = "";
-      cart.forEach((product, index) => {
-        cartList.innerHTML += `<li>${index+1}. ${product}</li>`;
-      });
-      
-      // clear input
-      document.getElementById("itemInput").value = "";
-    }
-  </script>
+    <script src="app.js"></script>
 </body>
 </html>

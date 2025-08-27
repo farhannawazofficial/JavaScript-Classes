@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Shopping Cart</title>
 </head>
 <body>
-    <h1>Shoping Cart</h1>
-    <input type="text">
-    <button onclick="addMe()">ADD</button>
+  <h2>Shopping Cart</h2>
+  <input id="item" placeholder="Item name">
+  <button onclick="add()">Add</button>
+  <p id="msg"></p>
+  <h3>Cart (<span id="count">0</span>)</h3>
+  <ul id="list"></ul>
 
-    <script src="app.js"></script>
+  <script>
+    let cart = [];
+
+    function add() {
+      let val = document.getElementById("item").value;
+      let msg = document.getElementById("msg");
+
+      if(val === "") {
+        msg.innerText = "❌ Item likho!";
+      } else {
+        msg.innerText = "";
+        cart.push(val);
+        updateList();
+        document.getElementById("item").value = "";
+      }
+    }
+
+    function updateList() {
+      let list = document.getElementById("list");
+      list.innerHTML = "";
+      cart.forEach((val, index) => {
+        list.innerHTML += `<li>${val} 
+          <button onclick="removeItem(${index})"> ❌ </button></li>`;
+      });
+      document.getElementById("count").innerText = cart.length;
+    }
+
+    function removeItem(index) {
+      cart.splice(index, 1); // item delete from array
+      updateList(); // list refresh
+    }
+  </script>
 </body>
 </html>
